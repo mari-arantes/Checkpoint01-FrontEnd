@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-image: url("Slide1.jpg");
+    width: 100%;
+    background-size: cover;
+}
+
+header{
+    padding: 0px 15px 0px;
+    background-color: red;
+    width: 100%;
+}
+
+.titulo{
+    text-align: center;
+    color: #ebd7e6fd;
+    font-family: 'Lobster', cursive;
+        
+}
+
+.descricao{
+    position: relative;
+    width: 90%;
+    top: 25%;
+    left: 5%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    margin: 12px;
+}
+.descricao p{
+
+    padding: 12px;
+}
+
+.youtube{
+    top: 60%;
+    position: relative;
+    left: 15%;
+}
+
+.curiosidades{
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ebd7e6fd;
+    margin: 12px;
+}
+
+footer p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.insta{
+    position:relative;
+    width: 25px;
+    padding: 8px;
+    left: 48%;
+}
+
